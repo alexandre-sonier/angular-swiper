@@ -28,6 +28,8 @@
             transclude: true,
             scope: {
                 onReady: '&',
+                centeredSlides: '=',
+                slidesOffsetAfter: '=',
                 slidesPerView: '=',
                 slidesPerColumn: '=',
                 spaceBetween: '=',
@@ -55,6 +57,8 @@
 
                 // directive defaults
                 var params = {
+                    centeredSlides: $scope.centeredSlides || false,
+                    slidesOffsetAfter: $scope.slidesOffsetAfter || 0,
                     slidesPerView: $scope.slidesPerView || 1,
                     slidesPerColumn: $scope.slidesPerColumn || 1,
                     spaceBetween: $scope.spaceBetween || 0,
