@@ -1,6 +1,6 @@
 var packageName = 'aaronroberson:angular-swiper';
 var where = 'client';
-var version = '0.4.0';
+var version = '0.4.1';
 var summary = 'Angular directive for iDangero.us Swiper re-packaged for Meteor.';
 var gitLink = 'https://github.com/aaronroberson/angular-swiper';
 var documentationFile = 'README.md';
@@ -18,7 +18,7 @@ Package.onUse(function(api) {
     api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']);
 
     api.use('angular:angular@1.3.0', where);
-    api.use('swiper:swiper@3.0.5', where);
+    api.use('swiper:swiper@4.0.7', where);
 
     api.addFiles('dist/angular-swiper.js', where);
 });
