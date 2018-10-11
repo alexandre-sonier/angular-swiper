@@ -42,6 +42,7 @@
                 showScrollBar: '=',
                 loop: '=',
                 autoplay: '=',
+                freeMode: '=',
                 initialSlide: '=',
                 containerCls: '@',
                 wrapperCls: '@',
@@ -66,6 +67,7 @@
                     spaceBetween: $scope.spaceBetween || 0,
                     direction: $scope.direction || 'horizontal',
                     loop: $scope.loop || false,
+                    freeMode: $scope.freeMode || false,
                     initialSlide: $scope.initialSlide || 0,
                     showNavButtons: false
                 };
