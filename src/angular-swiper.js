@@ -29,6 +29,7 @@
             scope: {
                 onReady: '&',
                 centeredSlides: '=',
+                slidesOffsetBefore: '=',
                 slidesOffsetAfter: '=',
                 slidesPerView: '=',
                 slidesPerColumn: '=',
@@ -58,6 +59,7 @@
                 // directive defaults
                 var params = {
                     centeredSlides: $scope.centeredSlides || false,
+                    slidesOffsetBefore: $scope.slidesOffsetBefore || 0,
                     slidesOffsetAfter: $scope.slidesOffsetAfter || 0,
                     slidesPerView: $scope.slidesPerView || 1,
                     slidesPerColumn: $scope.slidesPerColumn || 1,
