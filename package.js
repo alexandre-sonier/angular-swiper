@@ -18,7 +18,7 @@ Package.onUse(function(api) {
     api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']);
 
     api.use('angular:angular@1.3.0', where);
-    api.use('swiper:swiper@4.0.7', where);
+    api.use('swiper:swiper@4.4.1', where);
 
     api.addFiles('dist/angular-swiper.js', where);
 });

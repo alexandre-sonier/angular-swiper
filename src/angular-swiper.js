@@ -159,9 +159,9 @@
             require: '^ksSwiperContainer',
             transclude: true,
             scope: {
-              sliderCls: '@',
+              slideCls: '@',
             },
-            template: '<div class="swiper-slide {{sliderCls}}" ng-transclude></div>',
+            template: '<div class="swiper-slide {{slideCls}}" ng-transclude></div>',
             replace: true
         };
     }
